@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calulator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-container">
+            <div class="form-title-container">
+                <h1>Tip Calculator</h1>
+            </div>
+
+            <form action="#" id="form">
+                <div class="form-field-cotainer">
+                    <h3>how much was your bill?</h3>
+                    <input type="text" placeholder="Amount" id="amount">
+                </div>
+
+                <div class="form-field-cotainer">
+                    <h3>how much was your service?</h3>
+                    <select name="" id="procent">
+                        <option value="10">10%</option>
+                        <option value="20">20%</option>
+                        <option value="30">30%</option>
+                        <option value="40">40%</option>
+                        <option value="50">50%</option>
+                        <option value="60">60%</option>
+                        <option value="70">70%</option>
+                        <option value="80">80%</option>
+                        <option value="90">90%</option>
+                        <option value="100">100%</option>
+                    </select>
+                </div>
+
+                <div class="form-field-cotainer">
+                    <h3>People</h3>
+                    <input type="text" placeholder="Number" id="people">
+                </div>
+
+                <div class="form-field-cotainer">
+                    <input type="submit" class="submit-btn">
+                </div>
+
+                <div class="form-field-cotainer center">
+                    <h3 id="result"></h3>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
